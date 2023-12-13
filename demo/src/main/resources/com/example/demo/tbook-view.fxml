@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.TbookView">
+   <children>
+      <ImageView fitHeight="402.0" fitWidth="600.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bus%20-%20Copy/tbook.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="234.0" layoutX="23.0" layoutY="60.0" stroke="#7e8bd4" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="5.0" width="266.0" />
+      <Button layoutX="455.0" layoutY="329.0" mnemonicParsing="false" onAction="#enter" style="-fx-background-color: #7a68e3;" text="ENTER DETAILS" textFill="#fdfdff">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="name" layoutX="54.0" layoutY="87.0" prefHeight="26.0" prefWidth="204.0" promptText="NAME" style="-fx-border-color: #7e8bd4;" />
+      <TextField fx:id="mno" layoutX="54.0" layoutY="125.0" prefHeight="26.0" prefWidth="204.0" promptText="MOBILE NUMBER" style="-fx-border-color: #7e8bd4;" />
+      <TextField fx:id="ano" layoutX="54.0" layoutY="163.0" prefHeight="26.0" prefWidth="204.0" promptText="ID PROOF: AADHAR" style="-fx-border-color: #7e8bd4;" />
+      <TextField fx:id="sno" layoutX="54.0" layoutY="200.0" prefHeight="26.0" prefWidth="204.0" promptText="SEAT COUNT" style="-fx-border-color: #7e8bd4;" />
+      <TextField fx:id="mid" layoutX="54.0" layoutY="245.0" prefHeight="26.0" prefWidth="204.0" promptText="MAIL ID" style="-fx-border-color: #7e8bd4;" />
+   </children>
+</AnchorPane>

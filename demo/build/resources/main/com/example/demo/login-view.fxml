@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bus%20-%20Copy/home_page.png" />
+         </image></ImageView>
+      <DatePicker id="dateInput" fx:id="dateInput" layoutX="258.0" layoutY="172.0" prefHeight="26.0" prefWidth="319.0" />
+      <TextField id="from" fx:id="from" layoutX="258.0" layoutY="206.0" prefHeight="34.0" prefWidth="150.0" promptText="From" style="-fx-alignment: centre;" />
+      <TextField id="to" fx:id="to" layoutX="426.0" layoutY="206.0" prefHeight="34.0" prefWidth="150.0" promptText="To" />
+      <Button layoutX="251.0" layoutY="261.0" mnemonicParsing="false" onAction="#searchbus" prefHeight="42.0" prefWidth="341.0" style="-fx-background-color: #ff5c5c;" text="Search Buses" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="173.0" fitWidth="185.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bus%20-%20Copy/Bus_-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

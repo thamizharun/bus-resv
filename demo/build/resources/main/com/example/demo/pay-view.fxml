@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="277.0" prefWidth="253.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.PayView">
+   <children>
+      <ImageView fitHeight="277.0" fitWidth="253.0" layoutX="13.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <!-- Corrected image URL -->
+            <Image url="@bus%20-%20Copy/qr.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="194.0" layoutY="252.0" mnemonicParsing="false" onAction="#pay" style="-fx-background-color: #0af22d; -fx-text-fill: #fafcfa; -fx-font: 12.0 'System Bold Italic';" text="PAID" />
+      <Button layoutX="42.0" layoutY="29.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="167.0" style="-fx-font: 13.0 'System Bold Italic';" text="LingBus" />
+   </children>
+</AnchorPane>
